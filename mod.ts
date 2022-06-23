@@ -1,6 +1,6 @@
-import {instantiate} from "./lib/wasm_demo.generated.js";
+import {instantiate, hello, add} from "./lib/wasm_demo.generated.js";
 // initialize Wasm
 await instantiate();
 
-export {add, hello} from "./lib/wasm_demo.generated.js";
+export {add, hello};
 
