@@ -7,7 +7,7 @@ wasmbuild: a build tool to generate wasm-bindgen glue code for Deno and the brow
 
 * Open `rs_lib/src/lib.rs` to add Wasm export method with `#[wasm_bindgen]` attribute. 
 
-```
+```rust
 #[wasm_bindgen]
 pub fn hello(name: &str) -> String {
     return format!("Hello, {}!", name);
