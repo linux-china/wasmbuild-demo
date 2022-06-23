@@ -1,6 +1,6 @@
 {
   "tasks": {
     "wasmbuild": "deno run -A https://deno.land/x/wasmbuild@0.8.0/main.ts",
-    "demo": "deno run --allow-read demo.ts"
+    "demo": "deno run --allow-read --allow-net demo.ts"
   }
 }
