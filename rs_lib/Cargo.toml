@@ -13,4 +13,19 @@ lto = true
 opt-level = "z"
 
 [dependencies]
-wasm-bindgen = "=0.2.81"
+wasm-bindgen = { version = "=0.2.81", features = ["serde-serialize"] }
+js-sys = "0.3.58"
+wasm-bindgen-futures = "0.4.31"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+
+[dependencies.web-sys]
+version = "0.3.58"
+features = [
+    'Headers',
+    'Request',
+    'RequestInit',
+    'RequestMode',
+    'Response',
+    'Window',
+]
