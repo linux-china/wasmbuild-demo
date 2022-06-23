@@ -28,4 +28,16 @@ features = [
     'RequestMode',
     'Response',
     'Window',
+    "BinaryType",
+    "Blob",
+    "ErrorEvent",
+    "FileReader",
+    "MessageEvent",
+    "ProgressEvent",
+    "WebSocket",
+    "Crypto",
+    "CryptoKey",
+    "CryptoKeyPair",
+    "Event",
+    "EventTarget"
 ]
